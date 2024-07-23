@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'vintage';
+    src: url('assets/70s-disco-font/70SdiscopersonaluseBold-w14z2.otf');
+}
+@font-face {
+    font-family: 'lemon';
+    src: url('assets/lemon_mocktail/Lemon\ Mocktail\ .ttf');
+}
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header {
+    background-color: #026c80;
+    max-height: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header .title {
+    margin: 30px 0 30px 50px;
+    color: white;
+    font-size: 24px;
+}
+header ul {
+    display: flex;
+    margin: 30px 0 30px 50px;
+    padding-right: 50px;
+}
+header ul li {
+    text-decoration: none;
+    display: flex;
+    padding-left: 40px;
+    color:white;
+    font-size: 18px;
+}
+body {
+    background-color: #ecae7d;
+}
+
+.container h1 {
+    font-family: 'lemon';
+    font-size: 100px;
+    color: #026C81;
+    min-width: max-content;
+}
+.container  {
+    margin:100px;
+}
+.static-txt {
+    color:white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.main {
+    position: relative;
+}
+.main::after {
+    content: "";
+    position: absolute;
+    left:0;
+    height: 100%;
+    background: #ecae7d;
+    width: 100%;
+    border-left: 2px solid #026C81;
+    animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+    100% {
+        left:50%;
+    }
+}

@@ -46,7 +46,7 @@ body {
     font-family: 'lemon';
     font-size: 100px;
     color: #026C81;
-    min-width: max-content;
+    max-width: max-content;
 }
 .container  {
     margin:100px;

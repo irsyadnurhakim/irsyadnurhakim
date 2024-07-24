@@ -71,6 +71,6 @@ body {
 }
 @keyframes typing {
     100% {
-        left:80%;
+        left: 100%;
     }
 }

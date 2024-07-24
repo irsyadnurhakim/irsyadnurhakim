@@ -32,6 +32,7 @@ header ul {
     padding-right: 50px;
 }
 header ul li {
+    
     text-decoration: none;
     display: flex;
     padding-left: 40px;
@@ -71,6 +72,6 @@ body {
 }
 @keyframes typing {
     100% {
-        left: 100%;
+        left: 120%;
     }
 }

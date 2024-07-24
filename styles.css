@@ -32,7 +32,7 @@ header ul {
     padding-right: 50px;
 }
 header ul li {
-    
+    cursor: pointer;
     text-decoration: none;
     display: flex;
     padding-left: 40px;

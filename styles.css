@@ -60,18 +60,3 @@ body {
 .main {
     position: relative;
 }
-.main::after {
-    content: "";
-    position: absolute;
-    left:0;
-    height: 100%;
-    background: #ecae7d;
-    width: 100%;
-    border-left: 2px solid #026C81;
-    animation: typing 1.5s steps(10) infinite;
-}
-@keyframes typing {
-    100% {
-        left: 130%;
-    }
-}
